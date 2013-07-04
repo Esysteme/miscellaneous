@@ -1,0 +1,12 @@
+[paths]
+#default = http://******:*****@10.249.8.229/hg/Adel
+default = http://10.249.8.229/hg/Adel
+
+[ui]
+username = Aurélien LEQUOY
+
+[auth]
+default.prefix = http://10.249.8.229/hg/Adel
+default.password = ********
+default.username = ********
+default.schemes = http https
