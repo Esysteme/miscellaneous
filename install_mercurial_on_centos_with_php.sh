@@ -1,5 +1,10 @@
 # install mercurial on old VM for PHP4
 
+
+#say no to installing software else you will install PHP 5
+yum update
+
+
 wget http://docutils.sourceforge.net/docutils-snapshot.tgz
 tar -xvf docutils-snapshot.tgz
 cd docutils
@@ -16,8 +21,7 @@ rpm -Uvh ec2-ami-tools.noarch.rpm
 yum install python-devel
 
 
-#say no to installing software else you will install PHP 5
-yum update
+
 
 
 wget http://mercurial.selenic.com/release/mercurial-1.8.tar.gz
