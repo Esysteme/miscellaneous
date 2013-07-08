@@ -1,3 +1,4 @@
+#!/bin/bash
 # install mercurial on old VM for PHP4
 
 
