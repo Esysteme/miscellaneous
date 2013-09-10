@@ -1,0 +1,11 @@
+<?php
+namespace AC\Mvc\Controllers;
+ 
+class Home extends \AC\Mvc\Controller {        
+    public function indexAction(){
+        return array(
+            'page_title' => 'Hello world',
+            'meta_description' => ''
+        );
+    }
+}
