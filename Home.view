@@ -1,0 +1,7 @@
+<?php 
+$this->setMasterView('master', array(
+    'page_title' => 'Attrape-Coeur | Home',
+    'meta_description' => 'The meta description of the homepage',
+)) 
+?>
+Home ;)
